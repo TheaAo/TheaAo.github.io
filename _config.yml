@@ -2,8 +2,8 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
+title:               Ao Xinyan
+tagline:             一个初级 coder 的学习日记
 url:                 http://theaao.github.io
 paginate:            1
 baseurl:             ""
@@ -17,9 +17,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Ao Xinyan
+  url:               
+  email:             ao_xinyan@163.com
 
 # Custom vars
 
