@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: 自留地
-locale: zh_CN
+locale: en_US
 description: 一个初级 coder 的学习笔记
 logo: site-logo.png
 search: true
