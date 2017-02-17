@@ -1,7 +1,7 @@
 # Site wide configuration
 
 title: 自留地
-locale: en_US
+locale: zh_CN
 description: 一个初级 coder 的学习笔记
 logo: site-logo.png
 search: true
@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 # Site owner
 owner:
   name: Thea Ao
-  avatar: bio-photo.jpg
+  avatar: bio-photo-A.jpg
   email: ao_xinyan@163.com
   disqus-shortname:
   twitter: #username
