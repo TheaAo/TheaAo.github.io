@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: 关于我
+  url: /about/
+
+- title: 散记
+  url: /articles/
+
+- title: 学习笔记
+  url: /blog/
+
+#- title: Theme Setup
+#  url: /theme-setup/
+
+- title: Search
+  url: /search/

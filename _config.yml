@@ -1,29 +1,59 @@
-# Permalinks
-permalink:           pretty
+# Site wide configuration
 
-# Setup
-title:               自留地
-tagline:             一个初级 coder 的学习日记
-url:                 http://theaao.github.io
-paginate:            1
-baseurl:             ""
+title: 自留地
+locale: en_US
+description: 一个初级 coder 的学习笔记
+logo: site-logo.png
+search: true
+url: http://theaao.github.io
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
 sass:
-  sass_dir:          _sass
-  style:            :compressed
-
-# About/contact
-author:
-  name:              Ao Xinyan
-  url:               
-  email:             ao_xinyan@163.com
-
-# Custom vars
-
-# Gems
+  sass_dir: _sass
+  style: compressed
 gems:
-  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-gist
+  - jekyll-feed
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Thea Ao
+  avatar: bio-photo.jpg
+  email: ao_xinyan@163.com
+  disqus-shortname:
+  twitter: #username
+  facebook: #username
+  github:  TheaAo #username
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
