@@ -24,7 +24,7 @@ categories: blog
 
 - 项目实现效果
 
-    ![随机诗词生成器](/images/random_quote_machine/random_quote_machine.png)
+    ![随机诗词生成器](/images/random_quote_machine/Random_Quote_Machine.png)
 
     在线查看：
 
