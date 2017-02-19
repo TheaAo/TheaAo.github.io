@@ -69,9 +69,9 @@ categories: blog
 
 2. 这是我最开始的实现方法。
 
-考虑到 `fadeOut()` 实际上是对元素进行了 `display: none` 这样的一个设置。于是我在 html 页面的 `container` 里加了一个名为 background 的 `div` 用作背景，让他调用 `fadeToggle()` 函数。当它消失时 `container` 的颜色显现出来，当它出现时覆盖 `container` 。就像百叶窗一样。这样的切换就是平滑的了。
+    考虑到 `fadeOut()` 实际上是对元素进行了 `display: none` 这样的一个设置。于是我在 html 页面的 `container` 里加了一个名为 background 的 `div` 用作背景，让他调用 `fadeToggle()` 函数。当它消失时 `container` 的颜色显现出来，当它出现时覆盖 `container` 。就像百叶窗一样。这样的切换就是平滑的了。
 
-这个方法当然有些傻，不过在实现过程中我到因此注意到了之前不曾在意的 position 属性值的区别。
+第二种方法当然有些傻，不过在实现过程中我到因此注意到了之前不曾在意的 position 属性值的区别。
 
     position    static      默认值，没有定位，忽略 top/right/bottom/left 值
                 fixed       以窗口为参照，利用 top/right/bottom/left 确定位置
