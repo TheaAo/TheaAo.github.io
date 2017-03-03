@@ -5,6 +5,7 @@ excerpt: FCC课程作业——随机名言生成器
 tags: FCC-课程项目 jQury JSON
 date: 2017-02-19
 categories: blog
+published: false
 ---
 
 [FCC(Free Code Camp)][1] 是 GitHub 上的一个开源项目，免费为想要学习编程的人提供课程。课程以关卡形式发布，每阶段课程完成后会有相关的项目作业。我在不久前开始学习它的课程，决定在每个项目完成后进行总结，以期更好的巩固所学。如果你英文不够好，这儿是他们的中文社区——[ FCC 中文社区][2]。
@@ -75,11 +76,13 @@ categories: blog
 
     position    static      默认值，没有定位，忽略 top/right/bottom/left 值
                 fixed       以窗口为参照，利用 top/right/bottom/left 确定位置
-                absolute    以 position 值不是 static 的第一个父节点为参照，定位同上
-                relative    相对定位，以元素本来位置为参照点确定位置
+                absolute    以 position 值不是 static 的第一个父节点为参照，定位同上。如果没有这样的父节点，则相对于 body 定位。并且其将随页面的滚动而移动。
+                relative    相对定位，以元素本来位置为参照点确定位置。不对其进行任何设置时，其位置即为 static 时的位置
                 inherit     继承父节点定位置
 
 此前我从没有在意过它，所以理所当然，它的值始终都是默认的 `static` 。但是这样的话，我的诗词卡片就没有办法置于 background 的中间了。所以设置 container 的 position 值为 fixed，card 和 background 的对应值为 absolute 就可以使二者重叠了。
+
+关于 position 更清楚的[阐释][7]。
 
 ###### 3. 分享功能实现
 
@@ -111,4 +114,5 @@ categories: blog
 [4]: http://fontawesome.dashgame.com/
 [5]: http://www.jq22.com/cdn/
 [6]: http://www.daxiblog.com/2016/09/16/%E8%AE%A9%E6%96%B0%E7%89%88chrome%E6%94%AF%E6%8C%81%E6%9C%AC%E5%9C%B0%E8%B7%A8%E5%9F%9F%E8%AF%B7%E6%B1%82%E8%B0%83%E8%AF%95/
+[7]: http://zh.learnlayout.com/position.html
 
