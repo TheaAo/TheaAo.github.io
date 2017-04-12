@@ -5,7 +5,7 @@ date: 2017-03-21
 categories: blog
 layout: post
 tags: Ajax JSON
-published:false
+published: false
 ---
 
 使用 Ajax 技术可以在不重新加载页面的情况下动态更新页面数据。在 [LocalWeather][1] 和 [WikipediaViewer][2] 两个项目中，我通过浏览器 XHR 对象向远端服务器发出 Ajax 请求，得到数据并显示在页面上。然而无法获得数据。控制台错误信息显示
