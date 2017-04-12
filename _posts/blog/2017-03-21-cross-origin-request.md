@@ -1,4 +1,4 @@
-----
+---
 title: No "Access-Control-Allow-Origin" header 问题解决
 excerpt: Ajax 请求跨域问题及解决办法
 date: 2017-03-21
